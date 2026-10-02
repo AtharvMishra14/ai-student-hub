@@ -17,6 +17,9 @@ export const metadata: Metadata = {
     "AI tools for university assignments",
     "responsible AI use for students",
   ],
+  alternates: {
+    canonical: "https://ai-student-hub.vercel.app/blog/ai-college-assignments",
+  },
 };
 
 const workflowSteps = [

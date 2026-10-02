@@ -7,6 +7,9 @@ export const metadata: Metadata = {
   title: "AI Tools for College Students",
   description:
     "Explore practical AI tools for college students across studying, presentations, research, writing, and academic productivity.",
+  alternates: {
+    canonical: "https://ai-student-hub.vercel.app/tools",
+  },
 };
 
 export default function ToolsPage() {

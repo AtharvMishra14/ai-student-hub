@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "AI Study Tools for Students",
   description:
     "Discover AI study tools for college students, including tools for notes, exam preparation, lectures, revision, and understanding difficult topics.",
+  alternates: {
+    canonical: "https://ai-student-hub.vercel.app/categories/notes-study",
+  },
 };
 
 export default function NotesStudyPage() {

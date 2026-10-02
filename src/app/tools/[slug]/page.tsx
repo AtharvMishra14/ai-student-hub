@@ -30,9 +30,12 @@ export async function generateMetadata({
   }
 
   return {
-    title: `${tool.name} for College Students`,
-    description: `${tool.shortDescription} Learn how ${tool.name} can help college students with ${tool.bestFor.toLowerCase()}.`,
-  };
+  title: `${tool.name} for College Students`,
+  description: `${tool.shortDescription} Learn how ${tool.name} can help college students with ${tool.bestFor.toLowerCase()}.`,
+  alternates: {
+    canonical: `https://ai-student-hub.vercel.app/tools/${tool.slug}`,
+  },
+};
 }
 
 export default async function ToolPage({ params }: ToolPageProps) {

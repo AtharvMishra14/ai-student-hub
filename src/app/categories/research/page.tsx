@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "AI Tools for Research Papers",
   description:
     "Discover AI tools for college research papers, literature reviews, academic writing, source discovery, editing, and research workflows.",
+  alternates: {
+    canonical: "https://ai-student-hub.vercel.app/categories/research",
+  },
 };
 
 export default function ResearchPage() {

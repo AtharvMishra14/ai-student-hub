@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Best AI Presentation Makers for Students",
   description:
     "Explore AI presentation makers for college students. Compare tools for creating slides, project presentations, seminars, academic posters, and visual coursework.",
+  alternates: {
+    canonical: "https://ai-student-hub.vercel.app/categories/presentations",
+  },
 };
 
 export default function PresentationsPage() {

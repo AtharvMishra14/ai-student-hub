@@ -16,6 +16,9 @@ export const metadata: Metadata = {
     "AI tools for university students",
     "free AI study tools",
   ],
+  alternates: {
+    canonical: "https://ai-student-hub.vercel.app/blog/best-free-ai-tools",
+  },
 };
 
 const studyTools = [
