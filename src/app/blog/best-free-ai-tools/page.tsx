@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Script from "next/script";
 
 import Container from "@/components/common/Container";
 import Footer from "@/components/common/Footer";
@@ -161,6 +162,35 @@ const faqs = [
 export default function BestFreeAIToolsPage() {
   return (
     <>
+        <Script
+        id="article-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Article",
+            headline: "Best Free AI Tools for Students",
+            description:
+              "Explore practical free and freemium AI tools for college students, including study, presentation, research, writing, note-taking, and productivity tools.",
+            url: "https://ai-student-hub.vercel.app/blog/best-free-ai-tools",
+            author: {
+              "@type": "Organization",
+              name: "AI Student Hub",
+            },
+            publisher: {
+              "@type": "Organization",
+              name: "AI Student Hub",
+            },
+            mainEntityOfPage: {
+              "@type": "WebPage",
+              "@id":
+                "https://ai-student-hub.vercel.app/blog/best-free-ai-tools",
+            },
+          }),
+        }}
+      />
+
+      
       <Navbar />
 
       <main>
