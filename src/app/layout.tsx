@@ -6,6 +6,10 @@ const siteUrl = "https://ai-student-hub-two.vercel.app";
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
 
+  verification: {
+    google: "rSq0YdmKxqOo1ugdPF3P-f8rXDabREhg7jgkYNeBJFU",
+  },
+
   title: {
     default: "AI Student Hub | AI Tools for College Students",
     template: "%s | AI Student Hub",
