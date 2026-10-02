@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Script from "next/script";
 
 import Container from "@/components/common/Container";
 import Footer from "@/components/common/Footer";
@@ -204,6 +205,35 @@ const faqs = [
 export default function AICollegeAssignmentsPage() {
   return (
     <>
+        <Script
+        id="article-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Article",
+            headline: "How to Use AI for College Assignments",
+            description:
+              "Learn how to use AI responsibly for college assignments, from brainstorming and research to outlining, proofreading, fact-checking, and final review.",
+            url: "https://ai-student-hub.vercel.app/blog/ai-college-assignments",
+            author: {
+              "@type": "Organization",
+              name: "AI Student Hub",
+            },
+            publisher: {
+              "@type": "Organization",
+              name: "AI Student Hub",
+            },
+            mainEntityOfPage: {
+              "@type": "WebPage",
+              "@id":
+                "https://ai-student-hub.vercel.app/blog/ai-college-assignments",
+            },
+          }),
+        }}
+      />
+
+      
       <Navbar />
 
       <main>
