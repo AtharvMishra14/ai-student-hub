@@ -75,14 +75,14 @@ export default function HomePage() {
             "@context": "https://schema.org",
             "@type": "WebSite",
             name: "AI Student Hub",
-            url: "https://ai-student-hub.vercel.app",
+            url: "https://ai-student-hub-two.vercel.app",
             description:
               "Practical AI tools and guides for college students across studying, presentations, research, writing, and academic productivity.",
           }),
         }}
       />
 
-      
+
       <Navbar />
 
       <main>

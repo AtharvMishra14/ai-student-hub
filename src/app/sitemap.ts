@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 
 import { aiTools } from "@/data/tools";
 
-const baseUrl = "https://ai-student-hub.vercel.app";
+const baseUrl = "https://ai-student-hub-two.vercel.app";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticPages: MetadataRoute.Sitemap = [

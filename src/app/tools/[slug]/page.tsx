@@ -33,7 +33,7 @@ export async function generateMetadata({
   title: `${tool.name} for College Students`,
   description: `${tool.shortDescription} Learn how ${tool.name} can help college students with ${tool.bestFor.toLowerCase()}.`,
   alternates: {
-    canonical: `https://ai-student-hub.vercel.app/tools/${tool.slug}`,
+    canonical: `https://ai-student-hub-two.vercel.app/tools/${tool.slug}`,
   },
 };
 }

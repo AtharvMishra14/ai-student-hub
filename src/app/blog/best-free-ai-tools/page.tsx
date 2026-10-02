@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     "free AI study tools",
   ],
   alternates: {
-    canonical: "https://ai-student-hub.vercel.app/blog/best-free-ai-tools",
+    canonical: "https://ai-student-hub-two.vercel.app/blog/best-free-ai-tools",
   },
 };
 
@@ -172,7 +172,7 @@ export default function BestFreeAIToolsPage() {
             headline: "Best Free AI Tools for Students",
             description:
               "Explore practical free and freemium AI tools for college students, including study, presentation, research, writing, note-taking, and productivity tools.",
-            url: "https://ai-student-hub.vercel.app/blog/best-free-ai-tools",
+            url: "https://ai-student-hub-two.vercel.app/blog/best-free-ai-tools",
             author: {
               "@type": "Organization",
               name: "AI Student Hub",
@@ -184,13 +184,13 @@ export default function BestFreeAIToolsPage() {
             mainEntityOfPage: {
               "@type": "WebPage",
               "@id":
-                "https://ai-student-hub.vercel.app/blog/best-free-ai-tools",
+                "https://ai-student-hub-two.vercel.app/blog/best-free-ai-tools",
             },
           }),
         }}
       />
 
-      
+
       <Navbar />
 
       <main>

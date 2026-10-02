@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     "responsible AI use for students",
   ],
   alternates: {
-    canonical: "https://ai-student-hub.vercel.app/blog/ai-college-assignments",
+    canonical: "https://ai-student-hub-two.vercel.app/blog/ai-college-assignments",
   },
 };
 
@@ -215,7 +215,7 @@ export default function AICollegeAssignmentsPage() {
             headline: "How to Use AI for College Assignments",
             description:
               "Learn how to use AI responsibly for college assignments, from brainstorming and research to outlining, proofreading, fact-checking, and final review.",
-            url: "https://ai-student-hub.vercel.app/blog/ai-college-assignments",
+            url: "https://ai-student-hub-two.vercel.app/blog/ai-college-assignments",
             author: {
               "@type": "Organization",
               name: "AI Student Hub",
@@ -227,7 +227,7 @@ export default function AICollegeAssignmentsPage() {
             mainEntityOfPage: {
               "@type": "WebPage",
               "@id":
-                "https://ai-student-hub.vercel.app/blog/ai-college-assignments",
+                "https://ai-student-hub-two.vercel.app/blog/ai-college-assignments",
             },
           }),
         }}

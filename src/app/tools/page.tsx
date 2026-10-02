@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description:
     "Explore practical AI tools for college students across studying, presentations, research, writing, and academic productivity.",
   alternates: {
-    canonical: "https://ai-student-hub.vercel.app/tools",
+    canonical: "https://ai-student-hub-two.vercel.app/tools",
   },
 };
 
