@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Script from "next/script";
 
 import Container from "@/components/common/Container";
 import Footer from "@/components/common/Footer";
@@ -66,6 +67,22 @@ const faqs = [
 export default function HomePage() {
   return (
     <>
+      <Script
+        id="website-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            name: "AI Student Hub",
+            url: "https://ai-student-hub.vercel.app",
+            description:
+              "Practical AI tools and guides for college students across studying, presentations, research, writing, and academic productivity.",
+          }),
+        }}
+      />
+
+      
       <Navbar />
 
       <main>
