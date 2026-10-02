@@ -60,6 +60,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <meta
+          name="google-site-verification"
+          content="rSq0YdmKxqOo1ugdPF3P-f8rXDabREhg7jgkYNeBJFU"
+        />
+      </head>
       <body>{children}</body>
     </html>
   );
