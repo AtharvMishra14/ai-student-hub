@@ -1,4 +1,6 @@
+
 import type { Metadata } from "next";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import "./globals.css";
 
 const siteUrl = "https://ai-student-hub-two.vercel.app";
@@ -66,7 +68,10 @@ export default function RootLayout({
           content="rSq0YdmKxqOo1ugdPF3P-f8rXDabREhg7jgkYNeBJFU"
         />
       </head>
-      <body>{children}</body>
+      <body>
+        {children}
+        <GoogleAnalytics gaId="G-SW007P43R1" />
+      </body>
     </html>
   );
 }
