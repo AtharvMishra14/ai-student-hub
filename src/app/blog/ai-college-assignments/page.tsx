@@ -416,7 +416,7 @@ export default function AICollegeAssignmentsPage() {
                             rel="noopener noreferrer"
                             className="font-semibold text-indigo-600 underline underline-offset-2"
                           >
-                            SEOnaLabs organic search services
+                            SEO resources from SeonaLabs
                           </a>.
                         </p>
                       )}
