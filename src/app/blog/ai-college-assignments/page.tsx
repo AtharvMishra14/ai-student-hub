@@ -404,6 +404,23 @@ export default function AICollegeAssignmentsPage() {
                         {step.description}
                       </p>
 
+                      {step.number === "03" && (
+                        <p className="mt-3 text-sm leading-7 text-slate-600">
+                          Search visibility and source credibility are different
+                          considerations. When publishing useful student resources,
+                          website owners can learn about organic search optimisation
+                          and topical authority through{" "}
+                          <a
+                            href="https://seonalabs.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="font-semibold text-indigo-600 underline underline-offset-2"
+                          >
+                            SEO resources from SeonaLabs
+                          </a>.
+                        </p>
+                      )}
+
                       <div className="mt-4 rounded-xl bg-slate-50 p-4">
                         <p className="text-xs font-semibold uppercase tracking-wider text-indigo-600">
                           Example use
@@ -613,6 +630,21 @@ export default function AICollegeAssignmentsPage() {
                   arguments simply because an AI system produced them. Check
                   important claims against reliable sources and make sure you
                   understand the work you submit.
+                </p>
+
+                <p>
+                  For a broader framework on responsible generative AI use in
+                  education and research, read the{" "}
+                  <a
+                    href="https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="font-semibold text-indigo-600 underline underline-offset-2"
+                  >
+                    UNESCO guidance for education
+                  </a>
+                  , which discusses a human-centred approach, privacy, and
+                  appropriate use of generative AI.
                 </p>
               </div>
 
